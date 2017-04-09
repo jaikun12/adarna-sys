@@ -1,0 +1,64 @@
+*{
+	margin:0;
+	box-sizing:border-box;
+	font-family:'Open Sans';
+}
+
+body{
+	/*overflow:hidden;*/
+}
+
+nav{
+	height:7vh;
+	background:black;
+	padding-left:25px;
+	padding-right:25px;
+}
+
+nav p{
+	float:left;
+	color:white;
+	vertical-align:middle;
+}
+
+nav .logo{
+	float:left;
+	height:7vh;
+	width:auto;
+}
+
+.main-card{
+	margin:25px;
+	box-shadow:0px 5px 5px #D9D9D9;
+	padding:10px;
+}
+
+#appointments{
+	float:left;
+	height:40vh;
+	width:96%;
+	/*border:solid black 1px;*/
+
+}
+
+#reservation{
+	float:left;
+	height:40vh;
+	width:96%;
+}
+
+.main-card table{
+	font-size:1.6vh;
+}
+
+#quotations{
+	float:left;
+	height:40vh;
+	width:46vw;
+}
+
+#requests{
+	float:left;
+	height:40vh;
+	width:46vw;
+}
